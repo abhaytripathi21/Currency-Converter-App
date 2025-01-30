@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container h1 {
+    margin: 23px 0px;
+}
+
+.container h2 {
+    margin: 23px 0px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type='number'],
+select {
+    background-color: white;
+    font-size: 25px;
+    width: 23vw;
+    margin-bottom: 23px;
+}
+
+.container form label {
+    font-size: 25px;
+}
+
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 0.7cm;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    background-color: rgba(65, 209, 79, 0.775);
+    color: black;
+}
+
+nav {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    background-color: rgba(65, 209, 79, 0.775);
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    font-size: 30px;
+}
+
+div.output {
+    display: block;
+}
+
+div.output table {
+    width: 75vw;
+    text-align: center;
+    border: 3px solid;
+    font-size: 20px;
+}
+
+div.output table thead {
+    font-style: italic;
+}
+
+div.output table th {
+    padding: 3px;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: rgba(145, 129, 159, 0.767);
+    }
+
+    nav {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 5px 13px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 95vw;
+    }
+
+    .container form input[type='number'],
+    select {
+        width: 80vw;
+    }
+
+    .container form label {
+        width: 80vw;
+    }
+}
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+body{
+    background-color: antiquewhite;
+}
